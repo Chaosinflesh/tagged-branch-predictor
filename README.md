@@ -1,4 +1,4 @@
-# COMP591 Research Paper: Analysing Branch Prediction using OpenPAT
+# (2014) COMP591 Research Paper: Analysing Branch Prediction using OpenPAT
 
 This research paper investigated using the OpenPAT project to measure the performance of various branch predictors for pipelined CPUs. It also investigated replacing one or two bits within a JUMP instruction to hint which one of alternate available branch predictors should be used at a given instruction. This 'tagged' branch predictor was shown to be more accurate than any of the investigated branch predictors, especially at smaller predictor cache sizes.
 
